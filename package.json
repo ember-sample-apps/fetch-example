@@ -2,10 +2,10 @@
   "name": "fetch-example",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for fetch-example goes here",
-  "repository": "",
+  "description": "An Ember app showing how to use fetch with a public API",
+  "repository": "https://github.com/ember-sample-apps/fetch-example",
   "license": "MIT",
-  "author": "",
+  "author": "Melanie Sumner <melaniersumner@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"

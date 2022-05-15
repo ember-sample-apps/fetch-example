@@ -3,7 +3,9 @@ import fetch from 'fetch';
 
 export default class ArtworksRoute extends Route {
   async model() {
-    const response = await fetch('https://api.artic.edu/api/v1/artworks?fields=id,title,artist_title,artist_display,date_display,thumbnail,image_id');
+    const response = await fetch(
+      'https://api.artic.edu/api/v1/artworks?fields=id,title,artist_title,artist_display,date_display,thumbnail,image_id'
+    );
 
     const artResponse = await response.json();
 
