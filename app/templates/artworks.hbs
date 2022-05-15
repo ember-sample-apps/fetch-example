@@ -1,0 +1,27 @@
+{{page-title "Artworks"}}
+
+<table>
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Title of Piece</th>
+            <th>Artist</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+    <tbody>
+{{#each-in @model as |artwork sections|}}
+        {{#each sections as |s|}}
+         <tr>
+            <td scope="row">
+                <img src="https://www.artic.edu/iiif/2/{{s.image_id}}/full/200,/0/default.jpg" alt="{{s.title}} by {{s.artist_title}}" />
+            </td>
+            <td>{{s.title}}</td>
+            <td>{{s.artist_display}}</td>
+            <td>{{s.date_display}}</td>
+
+        </tr>
+        {{/each}}
+  {{/each-in}}
+  </tbody>
+  </table>

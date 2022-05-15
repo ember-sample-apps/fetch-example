@@ -1,7 +1,12 @@
 # fetch-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Fetch some data from a public API and display the results in a table. 
+
+For this sample, the [Art Institute of Chicago's Public API](https://api.artic.edu/docs/) was used.
+
+To examine the example, view the `app/routes/artworks.js` and `app/routes/artworks.hbs` files.
+
+This example has no styling attached to the application at all.
 
 ## Prerequisites
 
